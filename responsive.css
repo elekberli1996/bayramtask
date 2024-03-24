@@ -1,0 +1,26 @@
+@media  screen and (max-width:1024px) {
+    :root{
+        --col-:3;
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    :root{
+        --col-:2;
+    }
+    .products_blok{
+        flex-direction: column;
+        align-items: center;
+    }
+    .abouts{
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+        
+    }
+}
+@media  screen and (max-width:480px) {
+    :root{
+        --col-:1;
+    }
+}
